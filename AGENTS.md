@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep the boutique catalog in centralized static data and demo cart/newsletter interactions in client-side UI so the storefront works without external services.
